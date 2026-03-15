@@ -1,0 +1,60 @@
+[0.009s] Invoking command in '/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim -- -j12 -l12
+[0.064s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/trajectory.cpp.o[0m
+[1.998s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:[m[K In member function ‘[01m[Kvoid RobotDrive::[01;32m[Kupdate_pose[m[K()[m[K’:
+[1.999s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:16:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvx[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[1.999s]    16 |     [01;35m[Kvx += ax * dt[m[K;
+[1.999s]       |     [01;35m[K~~~^~~~~~~~~~[m[K
+[1.999s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:10:12:[m[K [01;36m[Knote: [m[K‘[01m[Kvx[m[K’ was declared here
+[1.999s]    10 |     double [01;36m[Kvx[m[K,vy,x,y,yaw;
+[1.999s]       |            [01;36m[K^~[m[K
+[1.999s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:17:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvy[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[1.999s]    17 |     [01;35m[Kvy += ay * dt[m[K;
+[1.999s]       |     [01;35m[K~~~^~~~~~~~~~[m[K
+[1.999s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:10:15:[m[K [01;36m[Knote: [m[K‘[01m[Kvy[m[K’ was declared here
+[1.999s]    10 |     double vx,[01;36m[Kvy[m[K,x,y,yaw;
+[2.000s]       |               [01;36m[K^~[m[K
+[2.000s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:18:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kx[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[2.000s]    18 |     [01;35m[Kx += vx * dt[m[K;
+[2.000s]       |     [01;35m[K~~^~~~~~~~~~[m[K
+[2.000s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:10:18:[m[K [01;36m[Knote: [m[K‘[01m[Kx[m[K’ was declared here
+[2.000s]    10 |     double vx,vy,[01;36m[Kx[m[K,y,yaw;
+[2.000s]       |                  [01;36m[K^[m[K
+[2.000s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:19:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Ky[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[2.000s]    19 |     [01;35m[Ky += vy * dt[m[K;
+[2.000s]       |     [01;35m[K~~^~~~~~~~~~[m[K
+[2.000s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:10:20:[m[K [01;36m[Knote: [m[K‘[01m[Ky[m[K’ was declared here
+[2.000s]    10 |     double vx,vy,x,[01;36m[Ky[m[K,yaw;
+[2.000s]       |                    [01;36m[K^[m[K
+[2.028s] [ 66%] [32m[1mLinking CXX executable driver[0m
+[2.184s] [100%] Built target driver
+[2.193s] Invoked command in '/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim -- -j12 -l12
+[2.202s] Invoking command in '/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim
+[2.208s] -- Install configuration: ""
+[2.208s] -- Installing: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/lib/robot_sim/driver
+[2.209s] -- Set non-toolchain portion of runtime path of "/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/lib/robot_sim/driver" to ""
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/launch
+[2.209s] -- Installing: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/launch/sim.launch.py
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/urdf
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/urdf/robot.urdf
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/urdf/materials.xacro
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/rviz
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/rviz/config.rviz
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/include/
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/include//robot_sim
+[2.209s] -- Installing: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/include//robot_sim/robot_drive.hpp
+[2.209s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/ament_index/resource_index/package_run_dependencies/robot_sim
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/ament_index/resource_index/parent_prefix_path/robot_sim
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/environment/ament_prefix_path.sh
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/environment/ament_prefix_path.dsv
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/environment/path.sh
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/environment/path.dsv
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/local_setup.bash
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/local_setup.sh
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/local_setup.zsh
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/local_setup.dsv
+[2.210s] -- Installing: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/package.dsv
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/ament_index/resource_index/packages/robot_sim
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/cmake/robot_simConfig.cmake
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/cmake/robot_simConfig-version.cmake
+[2.210s] -- Up-to-date: /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/install/robot_sim/share/robot_sim/package.xml
+[2.211s] Invoked command in '/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim

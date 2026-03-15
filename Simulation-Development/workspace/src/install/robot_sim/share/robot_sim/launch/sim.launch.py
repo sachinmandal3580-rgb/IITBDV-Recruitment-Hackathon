@@ -18,25 +18,27 @@ def generate_launch_description():
 
     return LaunchDescription([
 
-        # 1. Publishes the TF tree based on your URDF
         Node(
             package="robot_state_publisher",
             executable="robot_state_publisher",
             parameters=[{'robot_description': robot_description}]
         ),
 
-        # 2. ADDS THE JOINT SLIDERS AND FIXES INVISIBLE WHEELS
         Node(
             package="joint_state_publisher_gui",
             executable="joint_state_publisher_gui",
             name="joint_state_publisher_gui"
         ),
 
-        # 3. Launches RViz2 with your saved config
         Node(
             package="rviz2",
             executable="rviz2",
             arguments=['-d', rviz],
+            output="screen"
+        ),
+        Node(
+            package="robot_sim",
+            executable="driver",
             output="screen"
         )
     ])

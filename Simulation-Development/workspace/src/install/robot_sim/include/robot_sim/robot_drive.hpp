@@ -15,6 +15,11 @@ public:
 
 private:
     double t;
+    double vx=0;
+    double vy=0;
+    double x=0;
+    double y=0;
+    double yaw=0;
 
     rclcpp::TimerBase::SharedPtr timer_;
     std::shared_ptr<tf2_ros::TransformBroadcaster> broadcaster_;

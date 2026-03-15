@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim -- -j12 -l12
+[0.060s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/main.cpp.o[0m
+[0.062s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/trajectory.cpp.o[0m
+[1.649s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:[m[K In member function ‘[01m[Kvoid RobotDrive::[01;32m[Kupdate_pose[m[K()[m[K’:
+[1.649s] [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:21:16:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kdouble[01;32m[K atan2[m[K(double, double)[m[K’
+[1.649s]    21 |     yaw = [01;31m[Katan2(vy/vx)[m[K;}
+[1.649s]       |           [01;31m[K~~~~~^~~~~~~[m[K
+[1.649s] In file included from [01m[K/usr/include/features.h:502[m[K,
+[1.649s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:39[m[K,
+[1.649s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:679[m[K,
+[1.649s]                  from [01m[K/usr/include/c++/13/csignal:41[m[K,
+[1.649s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+[1.649s]                  from [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/include/robot_sim/robot_drive.hpp:4[m[K,
+[1.649s]                  from [01m[K/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim/src/trajectory.cpp:1[m[K:
+[1.649s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:59:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.649s]    59 | [01;36m[K__MATHCALL_VEC[m[K (atan2,, (_Mdouble_ __y, _Mdouble_ __x));
+[1.650s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.065s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:90: CMakeFiles/driver.dir/src/trajectory.cpp.o] Error 1
+[2.065s] gmake[2]: *** Waiting for unfinished jobs....
+[2.928s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/driver.dir/all] Error 2
+[2.929s] gmake: *** [Makefile:146: all] Error 2
+[2.930s] Invoked command in '/home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/IITBDV-Recruitment-Hackathon/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/build/robot_sim -- -j12 -l12
